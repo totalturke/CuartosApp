@@ -1,0 +1,19 @@
+{
+  "name": "mexico-rental-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "start": "cd app && npm run start",
+    "build": "cd app && npm run build",
+    "dev": "cd app && npm run start-web-dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
