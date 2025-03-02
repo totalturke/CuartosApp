@@ -11,7 +11,8 @@
     "dev": "cd app && npm run start-web-dev"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.4"
+    "@supabase/supabase-js": "^2.45.4",
+    "serve": "^14.2.4"
   },
   "engines": {
     "node": ">=18.0.0"
